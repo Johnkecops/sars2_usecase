@@ -1,0 +1,6 @@
+data/genomes.fasta
+data/features_k3.bin
+Rplots.pdf
+.Rhistory
+.Rproj.user/
+.DS_Store

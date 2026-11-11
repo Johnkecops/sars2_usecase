@@ -1,0 +1,5 @@
+label,seconds,mem_change_mb,file_mb
+base read.delim (all columns),0.024,6.73,1.24
+data.table fread (all columns),0.012,1.27,1.24
+data.table fread (select 4 cols),0.01,0.64,1.24
+ff read.table.ffdf (on disk),0.092,3.74,1.24
